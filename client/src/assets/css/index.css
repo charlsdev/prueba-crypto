@@ -1,0 +1,48 @@
+@import url('./TSSans.min.css');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: 'PT Sans', sans-serif !important;
+   background: linear-gradient(to left, #ada996, #f2f2f2, #dbdbdb, #eaeaea);;
+}
+
+.icons {
+   width: 15px;
+   height: 15px;
+   margin-right: 6px;
+}
+
+.header__modal {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.header__modal .tittle__modal {
+   font-weight: 600;
+   font-size: 1.3rem;
+   color: #000C40;
+}
+
+.body__modal label {
+   font-size: .9rem;
+   font-weight: 600;
+   text-transform: uppercase;
+   margin-left: 10px;
+   color: #000C40;
+}
+
+.body__modal input,
+.body__modal select {
+   font-size: .85rem;
+}
+
+.footer__modal {
+   display: flex;
+   justify-content: space-between;
+}

@@ -1,0 +1,60 @@
+.tittle {
+   font-weight: 600;
+   font-size: 2rem;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   color: #000C40;
+}
+
+.btnGeneral {
+   padding: 3px 35px !important;
+   font-weight: 600 !important;
+   display: flex !important;
+   justify-content: center !important;
+   align-items: center !important;
+}
+
+.icons {
+   fill: #f13c77;
+   transition: .5s;
+}
+
+.btnGeneral:hover .icons {
+   fill: #fff;
+   transition: .5s;
+}
+
+.boxing {
+   border: 2px double #000C40;
+   border-radius: 1rem;
+   padding: 10px 20px !important;
+   background: #fff;
+   min-width: max-content !important;
+}
+
+.boxing .idMoney {
+   font-style: italic;
+   font-weight: 600;
+   font-size: .65rem;
+   text-align: center;
+}
+
+.boxing .nameMoney {
+   font-weight: 600;
+   color: #ff7171;
+   font-size: 1.6rem;
+   text-transform: uppercase;
+}
+
+.boxing .usdMoney {
+   font-style: italic;
+   text-align: center;
+   font-size: 1.2rem;
+   color: #0e1741;
+   margin-bottom: 10px;
+   font-variant-numeric: tabular-nums;
+}
+
+.boxing .usdMoney span {
+   font-weight: 600;
+}

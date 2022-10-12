@@ -8,7 +8,6 @@ import './assets/css/App.css'
 
 import { getCrypto } from './api/crypto'
 
-
 function App() {
    const [show, setShow] = useState(false)
    const [crypto, setCrypto] = useState([])
